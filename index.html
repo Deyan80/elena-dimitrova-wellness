@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Елена Димитрова: Тяло. Ум. Трансформация.</title>
+<meta name="description" content="Елена Димитрова – масаж терапист, пептидна терапия и фитнес инструктор. Луксозна грижа за тялото и духа в София." />
+<meta property="og:title" content="Елена Димитрова: Тяло. Ум. Трансформация." />
+<meta property="og:description" content="Масаж терапист, пептидна терапия, фитнес инструктор и модел. Луксозна грижа с отлични резултати." />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="bg_BG" />
+<meta property="og:image" content="wide.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Елена Димитрова – Тяло. Ум. Трансформация." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Елена Димитрова: Тяло. Ум. Трансформация." />
+<meta name="twitter:description" content="Масаж терапист, пептидна терапия, фитнес и модел." />
+<meta name="twitter:image" content="wide.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#080b0f;
+  --bg2:#0d1117;
+  --paper:rgba(255,255,255,.04);
+  --paper-2:rgba(255,255,255,.08);
+  --line:rgba(255,255,255,.11);
+  --text:#f2ede6;
+  --muted:rgba(242,237,230,.62);
+  --sage:#7fa688;
+  --sage-2:#a8c9af;
+  --sage-soft:rgba(127,166,136,.18);
+  --sand:#c4a882;
+  --sand-2:#d9c09a;
+  --sand-soft:rgba(196,168,130,.16);
+  --rose:#c08a9a;
+  --shadow:0 32px 72px rgba(0,0,0,.55);
+  --radius:22px;
+}
+[data-theme="light"]{
+  --bg:#f4f0ea;
+  --bg2:#fdfaf6;
+  --paper:rgba(30,24,14,.04);
+  --paper-2:rgba(30,24,14,.08);
+  --line:rgba(30,24,14,.12);
+  --text:#1a150e;
+  --muted:rgba(26,21,14,.60);
+  --sage:#3d7a4e;
+  --sage-2:#4e8f60;
+  --sage-soft:rgba(61,122,78,.14);
+  --sand:#8a6030;
+  --sand-2:#a07540;
+  --sand-soft:rgba(138,96,48,.13);
+  --rose:#9a4060;
+  --shadow:0 20px 48px rgba(20,14,6,.13);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Playfair Display',ui-serif,Georgia,serif;
+  color:var(--text);
+  line-height:1.8;
+  background-color:var(--bg);
+  background-image:
+    radial-gradient(ellipse 900px 700px at 0% 0%,rgba(127,166,136,.10),transparent 55%),
+    radial-gradient(ellipse 700px 500px at 100% 30%,rgba(196,168,130,.08),transparent 55%),
+    radial-gradient(ellipse 600px 400px at 50% 100%,rgba(192,138,154,.07),transparent 60%),
+    linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);
+  min-height:100vh;
+  transition:background-color .3s,color .3s;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:36px 22px 90px;}
+
+/* ── TOPBAR ── */
+.topbar{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;margin-bottom:28px;flex-wrap:wrap;}
+.kicker{font-family:'DM Sans',ui-sans-serif,sans-serif;letter-spacing:.28em;text-transform:uppercase;font-size:10px;font-weight:400;color:var(--sage);margin-bottom:10px;}
+h1{font-size:clamp(30px,4.5vw,58px);font-weight:400;line-height:1.08;letter-spacing:.01em;font-style:italic;}
+h1 em{font-style:normal;font-weight:700;color:var(--sand-2);}
+.deck{margin:14px 0 0;max-width:60ch;font-family:'DM Sans',ui-sans-serif,sans-serif;font-size:14px;font-weight:300;color:var(--muted);line-height:1.75;}
+.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:flex-end;}
+.pill{border:1px solid var(--line);background:linear-gradient(160deg,var(--paper-2),var(--paper));color:var(--text);box-shadow:var(--shadow);border-radius:999px;min-height:40px;padding:9px 18px;font-size:12px;font-family:'DM Sans',ui-sans-serif,sans-serif;font-weight:400;letter-spacing:.06em;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:transform .15s,border-color .22s,box-shadow .22s;}
+.pill:hover{transform:translateY(-2px);border-color:var(--sage);box-shadow:0 8px 28px rgba(127,166,136,.20);}
+.lang-group{display:inline-flex;border:1px solid var(--line);background:linear-gradient(160deg,var(--paper-2),var(--paper));border-radius:999px;overflow:hidden;box-shadow:var(--shadow);}
+.lang-btn{background:transparent;border:none;color:var(--muted);font-family:'DM Sans',ui-sans-serif,sans-serif;font-size:12px;font-weight:400;letter-spacing:.07em;padding:9px 16px;cursor:pointer;transition:color .18s,background .18s;min-height:40px;}
+.lang-btn:not(:last-child){border-right:1px solid var(--line);}
+.lang-btn:hover{color:var(--sage);background:var(--sage-soft);}
+.lang-btn.active{color:var(--sage-2);background:var(--sage-soft);font-weight:500;}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--sage);box-shadow:0 0 0 4px var(--sage-soft);flex-shrink:0;}
+.dot.rose{background:var(--rose);box-shadow:0 0 0 4px rgba(192,138,154,.18);}
+
+/* ── HERO CARD ── */
+.card{border:1px solid var(--line);background:linear-gradient(170deg,var(--paper-2) 0%,var(--paper) 100%);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;backdrop-filter:blur(12px);}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;}
+.hero-visual{position:relative;overflow:hidden;}
+.hero-visual img{display:block;width:100%;height:100%;object-fit:cover;min-height:680px;object-position:top center;}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to right,transparent 50%,var(--bg) 100%);pointer-events:none;}
+[data-theme="light"] .hero-overlay{background:linear-gradient(to right,transparent 50%,var(--bg2) 100%);}
+.hero-badge{position:absolute;left:18px;bottom:18px;padding:9px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.20);background:rgba(8,11,15,.42);color:#fff;backdrop-filter:blur(14px);font-family:'DM Sans',ui-sans-serif,sans-serif;font-size:10.5px;font-weight:400;letter-spacing:.18em;text-transform:uppercase;}
+[data-theme="light"] .hero-badge{background:rgba(244,240,234,.55);color:var(--text);border-color:rgba(0,0,0,.15);}
+.hero-copy{padding:40px 34px;}
+.lead{font-size:20px;font-weight:400;font-style:italic;margin-bottom:24px;line-height:1.62;color:var(--text);}
+.services-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0;}
+.svc{border:1px solid var(--line);border-radius:16px;padding:16px;background:rgba(255,255,255,.03);transition:border-color .2s,background .2s;text-align:center;}
+.svc:hover{border-color:var(--sage-soft);background:var(--sage-soft);}
+.svc-icon{font-size:22px;margin-bottom:6px;display:block;}
+.svc-label{display:block;font-family:'DM Sans',ui-sans-serif,sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--sage);margin-bottom:4px;font-weight:500;}
+.svc-value{font-size:13.5px;font-weight:400;line-height:1.4;}
+
+/* ── ARTICLE ── */
+article{padding:10px 34px 40px;}
+h2{margin:34px 0 13px;font-family:'DM Sans',ui-sans-serif,sans-serif;font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--sage);font-weight:500;}
+h2::before{content:'◈ ';opacity:.55;}
+p{margin:12px 0;font-size:18px;font-weight:400;line-height:1.82;}
+.quote{margin:30px 0;padding:24px 26px 24px 28px;border-left:2px solid var(--sage);border-radius:16px;background:var(--sage-soft);font-size:21px;font-style:italic;font-weight:400;line-height:1.52;}
+
+/* ── FIGURES ── */
+figure{margin:24px 0;}
+.figure-card{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:rgba(255,255,255,.03);transition:transform .22s,box-shadow .22s;}
+.figure-card:hover{transform:translateY(-3px);box-shadow:0 18px 44px rgba(0,0,0,.28);}
+.figure-card img{width:100%;display:block;height:auto;}
+figcaption{padding:11px 16px;border-top:1px solid var(--line);color:var(--muted);font-family:'DM Sans',ui-sans-serif,sans-serif;font-size:12px;font-weight:300;letter-spacing:.04em;font-style:italic;}
+
+/* ── GALLERY 2 ── */
+.gallery-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+.gallery-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin:24px 0;}
+
+/* ── TALL + WIDE MIX ── */
+.img-tall{object-fit:cover;object-position:top center;width:100%;border-radius:18px;display:block;}
+.img-wide{object-fit:cover;width:100%;border-radius:18px;display:block;}
+
+/* ── CONTACT CARD ── */
+.contact-card{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(145deg,var(--sage-soft),var(--sand-soft));padding:34px 30px;margin:32px 0;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start;}
+.contact-title{font-family:'DM Sans',ui-sans-serif,sans-serif;font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--sage);font-weight:500;margin-bottom:16px;display:block;}
+.contact-title::before{content:'◈ ';opacity:.55;}
+.contact-item{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px;}
+.contact-icon{font-size:18px;flex-shrink:0;margin-top:2px;}
+.contact-info{font-family:'DM Sans',ui-sans-serif,sans-serif;font-size:13.5px;font-weight:300;line-height:1.6;}
+.contact-info a{color:var(--sage-2);text-decoration:none;transition:color .18s;}
+.contact-info a:hover{color:var(--sand-2);}
+.contact-phone{font-size:22px;font-weight:500;color:var(--sand-2);letter-spacing:.04em;margin-bottom:6px;font-family:'DM Sans',sans-serif;}
+.contact-address{font-family:'DM Sans',sans-serif;font-size:14px;color:var(--muted);line-height:1.6;}
+.qr-wrap{text-align:center;}
+.qr-wrap img{width:160px;height:160px;border-radius:12px;border:1px solid var(--line);background:#fff;padding:8px;object-fit:contain;}
+.qr-label{font-family:'DM Sans',sans-serif;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:10px;display:block;}
+
+/* ── GALLERY GRID ── */
+.divider{border:none;border-top:1px solid var(--line);margin:36px 0;}
+.gallery-section h2{margin-bottom:18px;}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px;}
+.gallery-item{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:rgba(255,255,255,.03);transition:transform .22s,box-shadow .22s,border-color .22s;cursor:pointer;}
+.gallery-item:hover{transform:translateY(-4px) scale(1.01);box-shadow:0 20px 50px rgba(0,0,0,.38);border-color:var(--sage);}
+.gallery-item img{width:100%;display:block;aspect-ratio:2/3;object-fit:cover;object-position:top center;}
+
+/* ── LIGHTBOX ── */
+.lightbox{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.90);backdrop-filter:blur(18px);align-items:center;justify-content:center;}
+.lightbox.open{display:flex;}
+.lightbox img{max-height:92vh;max-width:92vw;object-fit:contain;border-radius:14px;box-shadow:0 40px 120px rgba(0,0,0,.7);}
+.lightbox-close{position:absolute;top:20px;right:24px;background:none;border:1px solid rgba(255,255,255,.28);color:#fff;font-size:18px;width:44px;height:44px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-family:'DM Sans',sans-serif;transition:border-color .2s;}
+.lightbox-close:hover{border-color:var(--sage);color:var(--sage-2);}
+.lightbox-nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);color:#fff;width:50px;height:50px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:20px;transition:border-color .2s,background .2s;}
+.lightbox-nav:hover{border-color:var(--sage);background:var(--sage-soft);}
+.lightbox-nav.prev{left:20px;}
+.lightbox-nav.next{right:20px;}
+
+/* ── FOOTER ── */
+.footer-note{margin-top:40px;font-family:'DM Sans',ui-sans-serif,sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);opacity:.55;text-align:center;}
+
+/* ── MUSIC PULSE ── */
+.pill.playing .dot.rose{animation:pulse 1.4s ease-in-out infinite;}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 4px rgba(192,138,154,.18);}50%{box-shadow:0 0 0 9px rgba(192,138,154,.32);}}
+
+/* ── RESPONSIVE ── */
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;}
+  .hero-visual img{min-height:440px;}
+  .hero-overlay{background:linear-gradient(to bottom,transparent 55%,var(--bg) 100%);}
+  [data-theme="light"] .hero-overlay{background:linear-gradient(to bottom,transparent 55%,var(--bg2) 100%);}
+  .gallery-grid{grid-template-columns:repeat(3,1fr);}
+  .contact-card{grid-template-columns:1fr;}
+}
+@media(max-width:680px){
+  .services-grid,.gallery-2,.gallery-3{grid-template-columns:1fr;}
+  .hero-copy,article{padding-left:18px;padding-right:18px;}
+  h1{font-size:32px;}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);}
+  .contact-card{padding:22px 18px;}
+}
+</style>
+</head>
+
+<body data-theme="dark">
+
+<div class="wrap">
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div>
+      <p class="kicker" data-i18n="kicker">Wellness · Beauty · Performance · Digital Portrait</p>
+      <h1 id="mainH1">Тяло. Ум. Трансформация.<br><em>Елена Димитрова</em></h1>
+      <p class="deck" data-i18n="deck">Масаж терапист · Пептидна терапия · Фитнес инструктор · Модел. Професионална грижа за тялото и духа с доказани резултати.</p>
+    </div>
+    <div class="actions">
+      <button class="pill" id="musicBtn" onclick="toggleMusic()" type="button" aria-label="Музика">
+        <span class="dot rose" aria-hidden="true"></span>
+        <span id="musicLabel">Музика: OFF</span>
+      </button>
+      <button class="pill" onclick="toggleTheme()" type="button" aria-label="Смяна на тема">
+        <span class="dot" aria-hidden="true"></span>
+        <span data-i18n="theme">Тема</span>
+      </button>
+      <div class="lang-group" role="group" aria-label="Избор на език">
+        <button class="lang-btn active" data-lang="bg" onclick="setLang('bg')" type="button">БГ</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')" type="button">EN</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO CARD -->
+  <section class="card">
+    <div class="hero-grid">
+      <div class="hero-visual">
+        <img src="p01.jpg" alt="Елена Димитрова – портрет" />
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-badge" data-i18n="badge">Масаж Терапист · Пептидна Терапия · Фитнес · Модел</div>
+      </div>
+      <div class="hero-copy">
+        <p class="lead" data-i18n="lead">Дипломиран масаж терапист с международен опит на луксозни круизни лайнери — Елена Димитрова обединява науката за тялото, силата на пептидите и изкуството на движението в едно цялостно преживяване.</p>
+        <div class="services-grid">
+          <div class="svc">
+            <span class="svc-icon">🤲</span>
+            <span class="svc-label" data-i18n="svc1Label">Масаж</span>
+            <span class="svc-value" data-i18n="svc1Val">Спортен & Дълбокотъканен</span>
+          </div>
+          <div class="svc">
+            <span class="svc-icon">⚗️</span>
+            <span class="svc-label" data-i18n="svc2Label">Пептиди</span>
+            <span class="svc-value" data-i18n="svc2Val">Терапия & Анти-ейдж</span>
+          </div>
+          <div class="svc">
+            <span class="svc-icon">🏋️</span>
+            <span class="svc-label" data-i18n="svc3Label">Фитнес</span>
+            <span class="svc-value" data-i18n="svc3Val">Тренировки & Хранене</span>
+          </div>
+          <div class="svc">
+            <span class="svc-icon">✨</span>
+            <span class="svc-label" data-i18n="svc4Label">Красота</span>
+            <span class="svc-value" data-i18n="svc4Val">LPJ Лимфодренаж</span>
+          </div>
+        </div>
+        <p data-i18n="intro1">Работила предимно с американска клиентела, Елена носи стандартите на световната уелнес индустрия директно в сърцето на София. Всяка процедура е прецизно персонализирана — за резултати, които се виждат и усещат.</p>
+        <p data-i18n="intro2">Посланието е просто: <em>Клиентът получава професионално отношение, лечение и отлични очаквани резултати.</em></p>
+      </div>
+    </div>
+
+    <!-- ARTICLE -->
+    <article>
+
+      <!-- WIDE photo -->
+      <figure class="figure-card" style="margin-bottom:28px;">
+        <img src="wide.jpg" alt="Елена Димитрова" style="width:100%;display:block;height:340px;object-fit:cover;object-position:center;" loading="lazy" />
+        <figcaption data-i18n="captionWide">„Тялото е храм — аз само помагам да го поддържате."</figcaption>
+      </figure>
+
+      <!-- SECTION 1 -->
+      <h2 data-i18n="s1Title">Масаж терапия: от спорта до дълбините</h2>
+      <p data-i18n="s1P1">Спортният масаж и дълбокотъканната техника са основата на практиката на Елена. Работила като spa therapist и beauty therapist на луксозни круизни лайнери, тя е натрупала хиляди часове опит с взискателна международна клиентела — преди всичко американска. Резултатът: прецизност, усет и умение да открие точно това, от което тялото ви се нуждае.</p>
+
+      <div class="gallery-2">
+        <figure class="figure-card">
+          <img src="p02.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap02">Грижата за тялото е грижа за душата.</figcaption>
+        </figure>
+        <figure class="figure-card">
+          <img src="p03.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap03">Сила, баланс, хармония.</figcaption>
+        </figure>
+      </div>
+
+      <!-- SECTION 2 -->
+      <h2 data-i18n="s2Title">Пептидна терапия: науката зад трансформацията</h2>
+      <p data-i18n="s2P1">Пептидите са малки протеинови молекули с голям потенциал. Елена предлага персонализирани пептидни протоколи за: възстановяване след натоварени тренировки, отслабване и оформяне на тялото, качване на чиста мускулна маса, регулиране на кортизола и стреса, подобряване на съня и фокуса, антицелулитни ефекти, кожа анти-ейдж и сияние.</p>
+
+      <div class="quote" data-i18n="quote1">„Пептидната терапия не е магия — тя е наука. Но резултатите изглеждат вълшебно."</div>
+
+      <div class="gallery-3">
+        <figure class="figure-card">
+          <img src="p04.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap04">Наука и естетика в едно.</figcaption>
+        </figure>
+        <figure class="figure-card">
+          <img src="p05.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap05">Всяко тяло е уникално.</figcaption>
+        </figure>
+        <figure class="figure-card">
+          <img src="p06.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap06">Персонализиран подход.</figcaption>
+        </figure>
+      </div>
+
+      <!-- NEW: peptide body photo -->
+      <div class="gallery-2" style="margin-top:28px;">
+        <figure class="figure-card">
+          <img src="p14.jpg" alt="Изваяно женско тяло – резултат от пептидна терапия" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap14">Пептидите работят отвътре — красотата се вижда отвън.</figcaption>
+        </figure>
+        <div style="display:flex;flex-direction:column;justify-content:center;gap:18px;padding:10px 0;">
+          <p data-i18n="s2Extra">Правилно подбраният пептиден протокол действа синергично с тренировките и хранителния режим. Резултатът е тяло, което не само изглежда добре — то функционира оптимално, възстановява се по-бързо и стареее по-бавно. Всеки протокол се изработва индивидуално след консултация с Елена.</p>
+        </div>
+      </div>
+
+      <!-- SECTION 3 -->
+      <h2 data-i18n="s3Title">Фитнес & Хранене: план, изграден специално за вас</h2>
+      <p data-i18n="s3P1">Като фитнес инструктор Елена изготвя индивидуален тренировъчен режим и хранителен план, синхронизиран с пептидната терапия — за максимален и устойчив ефект. Независимо дали целта е по-стройно тяло, повече сила или просто по-добро самочувствие, тя създава програма, която работи точно за вас.</p>
+
+      <div class="gallery-2">
+        <figure class="figure-card">
+          <img src="p07.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap07">Движението е медицина.</figcaption>
+        </figure>
+        <figure class="figure-card">
+          <img src="p08.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap08">Дисциплина, която вдъхновява.</figcaption>
+        </figure>
+      </div>
+
+      <!-- NEW: healthy food photo -->
+      <div class="gallery-2" style="margin-top:28px;">
+        <div style="display:flex;flex-direction:column;justify-content:center;gap:18px;padding:10px 0;">
+          <p data-i18n="s3Extra">Храненето е половината от уравнението. Елена изгражда хранителни планове, базирани на реални нужди — не на модни диети. Пресни продукти, балансирани макронутриенти и хранителен ритъм, съобразен с тренировките и пептидния протокол. Защото истинската трансформация започва на чинията.</p>
+        </div>
+        <figure class="figure-card">
+          <img src="p15.jpg" alt="Здравословни хранителни продукти за балансирана диета" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:center;width:100%;" />
+          <figcaption data-i18n="cap15">Истинската трансформация започва на чинията.</figcaption>
+        </figure>
+      </div>
+
+      <!-- SECTION 4 -->
+      <h2 data-i18n="s4Title">За жените: красота отвън и отвътре</h2>
+      <p data-i18n="s4P1">За дамите Елена предлага специализирани антицелулитни процедури, лимфодренажен масаж LPJ, пептиди за кожа с анти-ейдж ефект и отслабване. Холистичен подход, при който красотата не е цел сама по себе си — тя е естественото следствие от здравето.</p>
+
+      <div class="quote" data-i18n="quote2">„Когато тялото е в баланс, красотата идва сама. Аз само помагам да намерите този баланс."</div>
+
+      <div class="gallery-3">
+        <figure class="figure-card">
+          <img src="p09.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap09">Елегантност и сила.</figcaption>
+        </figure>
+        <figure class="figure-card">
+          <img src="p10.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap10">Сияние и самочувствие.</figcaption>
+        </figure>
+        <figure class="figure-card">
+          <img src="p11.jpg" alt="Елена Димитрова" loading="lazy" style="aspect-ratio:2/3;object-fit:cover;object-position:top;width:100%;" />
+          <figcaption data-i18n="cap11">Естествена красота.</figcaption>
+        </figure>
+      </div>
+
+      <!-- CONTACT CARD -->
+      <hr class="divider" />
+      <div class="contact-card">
+        <div>
+          <span class="contact-title" data-i18n="contactTitle">Свържете се с Елена</span>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div>
+              <div class="contact-phone"><a href="tel:0885648024" style="color:inherit;text-decoration:none;">088 564 8024</a></div>
+              <div class="contact-address" data-i18n="contactPhone">Обадете се или напишете съобщение</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div class="contact-info">
+              <div style="font-size:15px;font-weight:500;margin-bottom:3px;">Цветна градина 15, Лозенец</div>
+              <div class="contact-address">София, България</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📘</span>
+            <div class="contact-info">
+              <a href="https://www.facebook.com/profile.php?id=61550830799698" target="_blank" rel="noopener">Facebook профил</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📸</span>
+            <div class="contact-info">
+              <a href="https://www.instagram.com/elena.dimitrova.370/?hl=bg" target="_blank" rel="noopener">@elena.dimitrova.370</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🌐</span>
+            <div class="contact-info">
+              <a href="https://studio24.bg/m/beauty-studio-tsvetna-s1887" target="_blank" rel="noopener">Beauty Studio Цветна — Studio24</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">⚗️</span>
+            <div class="contact-info">
+              <a href="https://pepti-go.pro/" target="_blank" rel="noopener" data-i18n="peptigoLink">Пептидна терапия — Pepti-Go</a>
+            </div>
+          </div>
+        </div>
+        <div class="qr-wrap">
+          <img src="qr.jpg" alt="QR код – Елена Димитрова" loading="lazy" />
+          <span class="qr-label" data-i18n="qrLabel">Сканирай за контакт</span>
+        </div>
+      </div>
+
+      <!-- GALLERY -->
+      <hr class="divider" />
+      <div class="gallery-section">
+        <h2 data-i18n="galleryTitle">Галерия</h2>
+        <div class="gallery-grid" id="galleryGrid">
+          <div class="gallery-item" onclick="openLB(0)"><img src="p01.jpg" alt="Галерия 1" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(1)"><img src="p02.jpg" alt="Галерия 2" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(2)"><img src="p03.jpg" alt="Галерия 3" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(3)"><img src="p04.jpg" alt="Галерия 4" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(4)"><img src="p05.jpg" alt="Галерия 5" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(5)"><img src="p06.jpg" alt="Галерия 6" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(6)"><img src="p07.jpg" alt="Галерия 7" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(7)"><img src="p08.jpg" alt="Галерия 8" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(8)"><img src="p09.jpg" alt="Галерия 9" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(9)"><img src="p10.jpg" alt="Галерия 10" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(10)"><img src="p11.jpg" alt="Галерия 11" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(11)"><img src="p12.jpg" alt="Галерия 12" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(12)"><img src="p13.jpg" alt="Галерия 13" loading="lazy" /></div>
+          <div class="gallery-item" onclick="openLB(13)"><img src="wide.jpg" alt="Галерия 14" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" /></div>
+        </div>
+      </div>
+
+      <p class="footer-note" data-i18n="footer">Дигитален портрет на Елена Димитрова · Wellness · Beauty · Performance</p>
+    </article>
+  </section>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLB()" role="dialog" aria-modal="true" aria-label="Преглед на снимка">
+  <button class="lightbox-close" onclick="closeLB()" aria-label="Затвори">✕</button>
+  <button class="lightbox-nav prev" onclick="prevLB()" aria-label="Предишна">‹</button>
+  <img id="lightboxImg" src="" alt="Елена Димитрова" />
+  <button class="lightbox-nav next" onclick="nextLB()" aria-label="Следваща">›</button>
+</div>
+
+<audio id="bgMusic" preload="none" loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+var LANG = 'bg';
+var PLAYING = false;
+var LB_IDX = 0;
+
+var H1 = {
+  bg: 'Тяло. Ум. Трансформация.<br><em>Елена Димитрова</em>',
+  en: 'Body. Mind. Transformation.<br><em>Elena Dimitrova</em>'
+};
+
+var T = {
+  bg: {
+    kicker: 'Wellness · Beauty · Performance · Дигитален Портрет',
+    deck: 'Масаж терапист · Пептидна терапия · Фитнес инструктор · Модел. Професионална грижа за тялото и духа с доказани резултати.',
+    theme: 'Тема',
+    badge: 'Масаж Терапист · Пептидна Терапия · Фитнес · Модел',
+    lead: 'Дипломиран масаж терапист с международен опит на луксозни круизни лайнери — Елена Димитрова обединява науката за тялото, силата на пептидите и изкуството на движението в едно цялостно преживяване.',
+    svc1Label:'Масаж', svc1Val:'Спортен & Дълбокотъканен',
+    svc2Label:'Пептиди', svc2Val:'Терапия & Анти-ейдж',
+    svc3Label:'Фитнес', svc3Val:'Тренировки & Хранене',
+    svc4Label:'Красота', svc4Val:'LPJ Лимфодренаж',
+    intro1: 'Работила предимно с американска клиентела, Елена носи стандартите на световната уелнес индустрия директно в сърцето на София. Всяка процедура е прецизно персонализирана — за резултати, които се виждат и усещат.',
+    intro2: 'Посланието е просто: <em>Клиентът получава професионално отношение, лечение и отлични очаквани резултати.</em>',
+    captionWide: '„Тялото е храм — аз само помагам да го поддържате."',
+    s1Title: 'Масаж терапия: от спорта до дълбините',
+    s1P1: 'Спортният масаж и дълбокотъканната техника са основата на практиката на Елена. Работила като spa therapist и beauty therapist на луксозни круизни лайнери, тя е натрупала хиляди часове опит с взискателна международна клиентела — преди всичко американска. Резултатът: прецизност, усет и умение да открие точно това, от което тялото ви се нуждае.',
+    cap02:'Грижата за тялото е грижа за душата.', cap03:'Сила, баланс, хармония.',
+    s2Title: 'Пептидна терапия: науката зад трансформацията',
+    s2P1: 'Пептидите са малки протеинови молекули с голям потенциал. Елена предлага персонализирани пептидни протоколи за: възстановяване след натоварени тренировки, отслабване и оформяне на тялото, качване на чиста мускулна маса, регулиране на кортизола и стреса, подобряване на съня и фокуса, антицелулитни ефекти, кожа анти-ейдж и сияние.',
+    quote1: '„Пептидната терапия не е магия — тя е наука. Но резултатите изглеждат вълшебно."',
+    cap04:'Наука и естетика в едно.', cap05:'Всяко тяло е уникално.', cap06:'Персонализиран подход.',
+    cap14: 'Пептидите работят отвътре — красотата се вижда отвън.',
+    s2Extra: 'Правилно подбраният пептиден протокол действа синергично с тренировките и хранителния режим. Резултатът е тяло, което не само изглежда добре — то функционира оптимално, възстановява се по-бързо и стареее по-бавно. Всеки протокол се изработва индивидуално след консултация с Елена.',
+    s3Title: 'Фитнес & Хранене: план, изграден специално за вас',
+    s3P1: 'Като фитнес инструктор Елена изготвя индивидуален тренировъчен режим и хранителен план, синхронизиран с пептидната терапия — за максимален и устойчив ефект. Независимо дали целта е по-стройно тяло, повече сила или просто по-добро самочувствие, тя създава програма, която работи точно за вас.',
+    cap07:'Движението е медицина.', cap08:'Дисциплина, която вдъхновява.',
+    s3Extra: 'Храненето е половината от уравнението. Елена изгражда хранителни планове, базирани на реални нужди — не на модни диети. Пресни продукти, балансирани макронутриенти и хранителен ритъм, съобразен с тренировките и пептидния протокол. Защото истинската трансформация започва на чинията.',
+    cap15: 'Истинската трансформация започва на чинията.',
+    s4Title: 'За жените: красота отвън и отвътре',
+    s4P1: 'За дамите Елена предлага специализирани антицелулитни процедури, лимфодренажен масаж LPJ, пептиди за кожа с анти-ейдж ефект и отслабване. Холистичен подход, при който красотата не е цел сама по себе си — тя е естественото следствие от здравето.',
+    quote2: '„Когато тялото е в баланс, красотата идва сама. Аз само помагам да намерите този баланс."',
+    cap09:'Елегантност и сила.', cap10:'Сияние и самочувствие.', cap11:'Естествена красота.',
+    contactTitle: 'Свържете се с Елена',
+    contactPhone: 'Обадете се или напишете съобщение',
+    peptigoLink: 'Пептидна терапия — Pepti-Go',
+    qrLabel: 'Сканирай за контакт',
+    galleryTitle: 'Галерия',
+    footer: 'Дигитален портрет на Елена Димитрова · Wellness · Beauty · Performance',
+    musicOn: '♪ Музика: ON', musicOff: 'Музика: OFF'
+  },
+  en: {
+    kicker: 'Wellness · Beauty · Performance · Digital Portrait',
+    deck: 'Massage Therapist · Peptide Therapy · Fitness Coach · Model. Professional care for body and mind with proven results.',
+    theme: 'Theme',
+    badge: 'Massage Therapist · Peptide Therapy · Fitness · Model',
+    lead: 'A certified massage therapist with international experience on luxury cruise ships — Elena Dimitrova unites the science of the body, the power of peptides and the art of movement into one holistic experience.',
+    svc1Label:'Massage', svc1Val:'Sports & Deep Tissue',
+    svc2Label:'Peptides', svc2Val:'Therapy & Anti-age',
+    svc3Label:'Fitness', svc3Val:'Training & Nutrition',
+    svc4Label:'Beauty', svc4Val:'LPJ Lymphatic Drainage',
+    intro1: 'Having worked predominantly with American clientele, Elena brings the standards of the global wellness industry directly to the heart of Sofia. Every treatment is precisely personalised — for results that are both visible and deeply felt.',
+    intro2: 'The message is simple: <em>The client receives professional care, treatment and excellent expected results.</em>',
+    captionWide: '"The body is a temple — I simply help you maintain it."',
+    s1Title: 'Massage Therapy: From Sport to the Depths',
+    s1P1: 'Sports massage and deep tissue technique form the foundation of Elena\'s practice. Having worked as a spa therapist and beauty therapist on luxury cruise ships, she has accumulated thousands of hours of experience with demanding international clientele — predominantly American. The result: precision, sensitivity and the skill to discover exactly what your body needs.',
+    cap02:'Caring for the body is caring for the soul.', cap03:'Strength, balance, harmony.',
+    s2Title: 'Peptide Therapy: The Science Behind Transformation',
+    s2P1: 'Peptides are small protein molecules with great potential. Elena offers personalised peptide protocols for: recovery after intense training, fat loss and body shaping, lean muscle gain, cortisol and stress regulation, improved sleep and focus, anti-cellulite effects, anti-age skin rejuvenation.',
+    quote1: '"Peptide therapy is not magic — it is science. But the results look miraculous."',
+    cap04:'Science and aesthetics in one.', cap05:'Every body is unique.', cap06:'Personalised approach.',
+    cap14: 'Peptides work from within — beauty shows on the outside.',
+    s2Extra: 'The right peptide protocol works synergistically with training and nutrition. The result is a body that not only looks great — it functions optimally, recovers faster and ages more slowly. Every protocol is designed individually after a consultation with Elena.',
+    s3Title: 'Fitness & Nutrition: A Plan Built Just for You',
+    s3P1: 'As a fitness instructor, Elena designs individual training programmes and nutrition plans synchronised with peptide therapy — for maximum and lasting effect. Whether the goal is a leaner physique, more strength or simply a better sense of wellbeing, she creates a programme that works specifically for you.',
+    cap07:'Movement is medicine.', cap08:'Discipline that inspires.',
+    s3Extra: 'Nutrition is half the equation. Elena builds nutritional plans based on real needs — not fad diets. Fresh produce, balanced macronutrients and an eating rhythm aligned with training and the peptide protocol. Because true transformation begins on the plate.',
+    cap15: 'True transformation begins on the plate.',
+    s4Title: 'For Women: Beauty Inside and Out',
+    s4P1: 'For women, Elena offers specialised anti-cellulite treatments, LPJ lymphatic drainage massage, anti-age skin peptides and weight management protocols. A holistic approach where beauty is not a goal in itself — it is the natural consequence of health.',
+    quote2: '"When the body is in balance, beauty follows naturally. I simply help you find that balance."',
+    cap09:'Elegance and strength.', cap10:'Radiance and confidence.', cap11:'Natural beauty.',
+    contactTitle: 'Get in Touch with Elena',
+    contactPhone: 'Call or send a message',
+    peptigoLink: 'Peptide Therapy — Pepti-Go',
+    qrLabel: 'Scan to contact',
+    galleryTitle: 'Gallery',
+    footer: 'Digital portrait of Elena Dimitrova · Wellness · Beauty · Performance',
+    musicOn: '♪ Music: ON', musicOff: 'Music: OFF'
+  }
+};
+
+function setLang(lang) {
+  if (!T[lang]) lang = 'bg';
+  LANG = lang;
+  var d = T[lang];
+  document.documentElement.lang = lang;
+  var els = document.querySelectorAll('[data-i18n]');
+  for (var i = 0; i < els.length; i++) {
+    var key = els[i].getAttribute('data-i18n');
+    if (d[key] !== undefined) els[i].innerHTML = d[key];
+  }
+  var h1el = document.getElementById('mainH1');
+  if (h1el) h1el.innerHTML = H1[lang] || H1['bg'];
+  var btns = document.querySelectorAll('.lang-btn');
+  for (var j = 0; j < btns.length; j++) {
+    btns[j].className = btns[j].getAttribute('data-lang') === lang ? 'lang-btn active' : 'lang-btn';
+  }
+  var ml = document.getElementById('musicLabel');
+  if (ml) ml.innerHTML = PLAYING ? d.musicOn : d.musicOff;
+  try { localStorage.setItem('elena-lang', lang); } catch(e) {}
+}
+
+function toggleTheme() {
+  var cur = document.body.getAttribute('data-theme') || 'dark';
+  var nxt = cur === 'light' ? 'dark' : 'light';
+  document.body.setAttribute('data-theme', nxt);
+  try { localStorage.setItem('elena-theme', nxt); } catch(e) {}
+}
+
+function toggleMusic() {
+  var music = document.getElementById('bgMusic');
+  var ml = document.getElementById('musicLabel');
+  var btn = document.getElementById('musicBtn');
+  var d = T[LANG] || T['bg'];
+  if (!music) return;
+  if (PLAYING) {
+    music.pause(); PLAYING = false;
+    if (ml) ml.innerHTML = d.musicOff;
+    if (btn) btn.classList.remove('playing');
+  } else {
+    music.currentTime = 0;
+    var p = music.play();
+    if (p && typeof p.then === 'function') {
+      p.then(function() {
+        PLAYING = true;
+        if (ml) ml.innerHTML = d.musicOn;
+        if (btn) btn.classList.add('playing');
+      }).catch(function() { PLAYING = false; if (ml) ml.innerHTML = d.musicOff; });
+    } else {
+      PLAYING = true;
+      if (ml) ml.innerHTML = d.musicOn;
+      if (btn) btn.classList.add('playing');
+    }
+  }
+}
+
+function openLB(idx) {
+  var items = document.querySelectorAll('.gallery-item img');
+  if (!items[idx]) return;
+  LB_IDX = idx;
+  document.getElementById('lightboxImg').src = items[idx].src;
+  document.getElementById('lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeLB() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function prevLB() {
+  var items = document.querySelectorAll('.gallery-item img');
+  LB_IDX = (LB_IDX - 1 + items.length) % items.length;
+  document.getElementById('lightboxImg').src = items[LB_IDX].src;
+}
+function nextLB() {
+  var items = document.querySelectorAll('.gallery-item img');
+  LB_IDX = (LB_IDX + 1) % items.length;
+  document.getElementById('lightboxImg').src = items[LB_IDX].src;
+}
+document.addEventListener('keydown', function(e) {
+  if (!document.getElementById('lightbox').classList.contains('open')) return;
+  if (e.key === 'Escape') closeLB();
+  if (e.key === 'ArrowLeft') prevLB();
+  if (e.key === 'ArrowRight') nextLB();
+});
+
+(function init() {
+  try { var t = localStorage.getItem('elena-theme'); if(t) document.body.setAttribute('data-theme',t); } catch(e) {}
+  var l = 'bg';
+  try { l = localStorage.getItem('elena-lang') || 'bg'; } catch(e) {}
+  setLang(l);
+})();
+</script>
+</body>
+</html>
